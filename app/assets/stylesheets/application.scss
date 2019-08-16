@@ -1,0 +1,48 @@
+@import "reset.scss";
+@import "participants.scss";
+
+body {
+    background: #f7f7f5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #19485d;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8434d6;
+    color: white;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.logo {
+    display: flex;
+    max-height: 40px;
+    max-width: 40px;
+    padding: 0px 15px;
+}
+
+.left-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center
+}
+
+i {
+    font-size: 12px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FamilyFriday</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header class="main-nav">
+      <nav class="left-nav">
+      <ul>
+        <li><img class="logo" src="/assets/al-logo.png" alt="Logo"></li>
+        <li><h1>Apartment List</h1></li>
+      </ul>
+      </nav>
+      <nav class="right-nav">
+        <h1>Family Friday</h1>
+      </nav>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>
