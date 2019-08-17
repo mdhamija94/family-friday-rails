@@ -28,8 +28,10 @@ textarea {
     width: 100%;
     resize: none;
     font-size: 14px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #cbdce3;
     background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15)
 }
 
 input[type="submit"], button {
@@ -43,6 +45,7 @@ input[type="submit"], button {
 
 input[type="submit"]:hover, button:hover {
     background-color: #9e5edf;
+    cursor: pointer;
 }
 
 .submit {
@@ -70,8 +73,9 @@ input[type="submit"]:hover, button:hover {
 .table {
     border: 1px solid #e6e6e6;
     display: flex;
-    width: 10%;
+    width: 8%;
     margin: 10px;
-    padding-left: 10px;
+    padding: 10px;
     text-align: left;
+    border-radius: 4px;
 }
