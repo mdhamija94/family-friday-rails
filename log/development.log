@@ -23720,3 +23720,1010 @@ Processing by ParticipantsController#generate_groups as HTML
 Completed 200 OK in 45ms (Views: 21.3ms | ActiveRecord: 19.5ms)
 
 
+Started GET "/" for ::1 at 2019-08-16 19:46:28 -0700
+Processing by ParticipantsController#new as HTML
+  Rendering participants/new.html.erb within layouts/application
+  Rendered participants/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/participants" for ::1 at 2019-08-16 19:46:38 -0700
+Processing by ParticipantsController#create as HTML
+  Parameters: {"authenticity_token"=>"g7iUkj4YallqZFGq23qjKPFJtu4uJXADqnU45Q0luTD2fuYfYvfxQrBT3BSKKNfSrT5MXOhJR3E5RTJ6hSCtAA==", "participant"=>{"name"=>"Annie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\nAnnie\r\n"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (1.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.431284"], ["updated_at", "2019-08-17 02:46:38.431284"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (40.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.5ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.476770"], ["updated_at", "2019-08-17 02:46:38.476770"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.482245"], ["updated_at", "2019-08-17 02:46:38.482245"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.484665"], ["updated_at", "2019-08-17 02:46:38.484665"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.487404"], ["updated_at", "2019-08-17 02:46:38.487404"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.489654"], ["updated_at", "2019-08-17 02:46:38.489654"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.492931"], ["updated_at", "2019-08-17 02:46:38.492931"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.495546"], ["updated_at", "2019-08-17 02:46:38.495546"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.498301"], ["updated_at", "2019-08-17 02:46:38.498301"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.501255"], ["updated_at", "2019-08-17 02:46:38.501255"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.503687"], ["updated_at", "2019-08-17 02:46:38.503687"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.505842"], ["updated_at", "2019-08-17 02:46:38.505842"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.508187"], ["updated_at", "2019-08-17 02:46:38.508187"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.513843"], ["updated_at", "2019-08-17 02:46:38.513843"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.516010"], ["updated_at", "2019-08-17 02:46:38.516010"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.518328"], ["updated_at", "2019-08-17 02:46:38.518328"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.520602"], ["updated_at", "2019-08-17 02:46:38.520602"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.522748"], ["updated_at", "2019-08-17 02:46:38.522748"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.524999"], ["updated_at", "2019-08-17 02:46:38.524999"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.527234"], ["updated_at", "2019-08-17 02:46:38.527234"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.529502"], ["updated_at", "2019-08-17 02:46:38.529502"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.532529"], ["updated_at", "2019-08-17 02:46:38.532529"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.534830"], ["updated_at", "2019-08-17 02:46:38.534830"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.537118"], ["updated_at", "2019-08-17 02:46:38.537118"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.5ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.539392"], ["updated_at", "2019-08-17 02:46:38.539392"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.543256"], ["updated_at", "2019-08-17 02:46:38.543256"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.545656"], ["updated_at", "2019-08-17 02:46:38.545656"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:46:38.548317"], ["updated_at", "2019-08-17 02:46:38.548317"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+Redirected to http://localhost:3000/participants
+Completed 302 Found in 121ms (ActiveRecord: 71.0ms)
+
+
+Started GET "/participants" for ::1 at 2019-08-16 19:46:38 -0700
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.9ms)[0m  [1m[34mSELECT "participants".* FROM "participants"[0m
+  ↳ app/views/participants/index.html.erb:6
+  Rendered participants/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:46:41 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:35
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 19.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:46:43 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (21.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:35
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 22.4ms | ActiveRecord: 22.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:46:44 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:35
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:46:45 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:35
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 20.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:46:46 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:35
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 23.5ms | ActiveRecord: 1.3ms)
+
+
+  [1m[36mParticipant Load (0.7ms)[0m  [1m[34mSELECT "participants".* FROM "participants"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.6ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1186]]
+  [1m[35m (40.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1187]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1188]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1189]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1190]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1191]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1192]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1193]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (2.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1194]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (1.5ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1195]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1196]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1197]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1198]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1199]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.9ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1200]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.5ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1201]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1202]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1203]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1204]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1205]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1206]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1207]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1208]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1209]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.5ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1210]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1211]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1212]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1213]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1214]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1215]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.5ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1216]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1217]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1218]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1219]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1220]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1221]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1222]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1223]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1224]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1225]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1226]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1227]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.6ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1228]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1229]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1230]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1231]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1232]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1233]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1234]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1235]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1236]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1237]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1238]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1239]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1240]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1241]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1242]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1243]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1244]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1245]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.5ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1246]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.2ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1247]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.4ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1248]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mParticipant Destroy (0.3ms)[0m  [1m[31mDELETE FROM "participants" WHERE "participants"."id" = $1[0m  [["id", 1249]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:49:40 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "participants"[0m
+  ↳ app/models/participant.rb:37
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 20.2ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-16 19:49:43 -0700
+Processing by ParticipantsController#new as HTML
+  Rendering participants/new.html.erb within layouts/application
+  Rendered participants/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/participants" for ::1 at 2019-08-16 19:49:52 -0700
+Processing by ParticipantsController#create as HTML
+  Parameters: {"authenticity_token"=>"DVmxRi7JLwrjvPAe7UlLCSveLq9YX90jP1gd6RM5rLV4n8PLcia0ETmLfaC8Gz/zd6nUHZ4z6lGsaBd2mzy4hQ==", "participant"=>{"name"=>"Mohit\r\nAnnie\r\nMohit\r\nAnnie\r\nMohit"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.6ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mohit"], ["created_at", "2019-08-17 02:49:52.399019"], ["updated_at", "2019-08-17 02:49:52.399019"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (39.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:49:52.443754"], ["updated_at", "2019-08-17 02:49:52.443754"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mohit"], ["created_at", "2019-08-17 02:49:52.448106"], ["updated_at", "2019-08-17 02:49:52.448106"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.4ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Annie"], ["created_at", "2019-08-17 02:49:52.450361"], ["updated_at", "2019-08-17 02:49:52.450361"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[36mParticipant Create (0.3ms)[0m  [1m[32mINSERT INTO "participants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Mohit"], ["created_at", "2019-08-17 02:49:52.452777"], ["updated_at", "2019-08-17 02:49:52.452777"]]
+  ↳ app/controllers/participants_controller.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/participants_controller.rb:10
+Redirected to http://localhost:3000/participants
+Completed 302 Found in 70ms (ActiveRecord: 53.9ms)
+
+
+Started GET "/participants" for ::1 at 2019-08-16 19:49:52 -0700
+Processing by ParticipantsController#index as HTML
+  Rendering participants/index.html.erb within layouts/application
+  [1m[36mParticipant Load (0.7ms)[0m  [1m[34mSELECT "participants".* FROM "participants"[0m
+  ↳ app/views/participants/index.html.erb:6
+  Rendered participants/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:49:55 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (15.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 23.1ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:49:57 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (16.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 22.9ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:49:58 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:49:59 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:00 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:01 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:01 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 22.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:02 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:02 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:03 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 56ms (Views: 23.0ms | ActiveRecord: 32.1ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:50:04 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (32.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 26.5ms | ActiveRecord: 32.1ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:02 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 15.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:02 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (26.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 24.8ms | ActiveRecord: 26.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:03 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (31.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 55ms (Views: 21.5ms | ActiveRecord: 31.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:04 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (42.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 67ms (Views: 22.4ms | ActiveRecord: 42.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:04 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (28.3ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 52ms (Views: 22.2ms | ActiveRecord: 28.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:05 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:05 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (29.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 19.8ms | ActiveRecord: 29.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:06 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 20.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:06 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:07 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:08 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:08 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (24.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 51ms (Views: 24.3ms | ActiveRecord: 24.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:09 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:09 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:10 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (25.8ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 23.1ms | ActiveRecord: 25.8ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:10 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:11 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (5.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 19.7ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:12 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:12 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 20.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:13 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (8.3ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 21.7ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:14 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (23.9ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 24.9ms | ActiveRecord: 23.9ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:15 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:16 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (37.0ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 61ms (Views: 21.6ms | ActiveRecord: 37.0ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:17 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:18 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:19 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:21 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (27.7ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 53ms (Views: 23.6ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:21 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:22 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (32.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 25.5ms | ActiveRecord: 32.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:23 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:25 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (28.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 55ms (Views: 24.7ms | ActiveRecord: 28.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:27 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:28 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:29 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:30 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:31 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:33 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:34 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:35 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:36 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 26ms (Views: 21.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:37 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:38 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:38 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 50ms (Views: 44.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:40 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/participants/generate_groups" for ::1 at 2019-08-16 19:51:41 -0700
+Processing by ParticipantsController#generate_groups as HTML
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "participants"."name" FROM "participants"[0m
+  ↳ app/models/participant.rb:15
+  Rendering participants/groups.html.erb within layouts/application
+  Rendered participants/groups.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 19.3ms | ActiveRecord: 2.1ms)
+
+

@@ -14,9 +14,11 @@ class Participant < ApplicationRecord
     def self.group_generator
         participants = Participant.pluck(:name)
 
-        groups = Participant.group_builder
-
         participants.shuffle!
+
+        return [participants] if participants.length == 5
+
+        groups = Participant.group_builder
 
         groups.each do |group|
             group << participants.pop until group.size == 3 || participants.empty?
